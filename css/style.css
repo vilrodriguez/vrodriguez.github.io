@@ -190,7 +190,7 @@ h3 { font-size: var(--fs-h3) }
 }
 
 .service {
-    max-width: 500px;
+    max-width: 300px;
     margin: 0 auto;
 }
 @media (min-width: 800px) {
@@ -256,6 +256,7 @@ h3 { font-size: var(--fs-h3) }
 .portfolio {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /* grid-template-columns: 1fr 1fr 1fr; */
 }
 
 .portfolio__item {
