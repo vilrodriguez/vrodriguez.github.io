@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vil R. Frontend Developer</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- normalize css for all browsers -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <!-- fontawesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css\style.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900|Montserrat|Raleway|Rubik+Mono+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img\victory.svg" alt="website logo hand victory sign">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#home" class="nav__link">Home</a>
+                </li>
+                <li class="nav__item">
+                        <a href="#services" class="nav__link">Lo que hago</a>
+                </li>
+                <li class="nav__item">
+                        <a href="#about" class="nav__link">Acerca de Mí</a>
+                </li>
+                <li class="nav__item">
+                        <a href="#work" class="nav__link">Mi Trabajo</a>
+                </li>
+                <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contáctame</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Intro -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro"> 
+            Hola, soy <strong>Vil Rodriguez</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro"> front-end developer & ilustradora</p><img src="img\me_square.png"alt="watercolor illustration of Vil" class="intro__img">
+    </section>
+    <!-- About me & services-->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services"> Que hago</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Feb Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At dignissimos, deserunt sint reiciendis ipsum doloribus qui quae quod facere vel!</p>
+                </div> <!-- service-->
+                <div class="service">
+                    <h3>Blablabla</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, natus nulla omnis aut eos magni optio nisi beatae amet officiis quo nostrum, tenetur illum ducimus.</p>
+                </div> <!-- service-->
+                <div class="service">
+                        <h3>Lorem ipsum</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia nam amet in qui error earum odio sed distinctio voluptates pariatur.</p>
+                </div><!-- service-->
+            </div><!-- services-->
+            <a href="#work" class="btn">Mis Projectos</a>
+    </section>
+            <!-- About me -->
+            <section class="about-me" id="about">
+                <h2 class="section__title section__title--about">Acerca de Mí</h2>
+                <p class="section__subtitle section__subtitle--about">lablaldkadsñla blaskdals</p>
+                <div class="about-me__body">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit et necessitatibus est molestiae quas nisi eum, beatae consequuntur distinctio soluta laboriosam atque rem nesciunt! Harum.</p>
+                    <p>Lorem, ip</p>
+                </div>
+                <img src="img\me_round.png" alt="watercolor illustration of Vil" class="about-me__img">
+            </section>
+            <!-- Projects -->
+            <section class="my-work" id="work">
+                <h2 class="section__title section__title--work">Mis projectos</h2>
+                <p class="section__subtitle section__subtitle--work">Trabajos de Desarrollo web e Ilustración</p>
+                <div class="portfolio">
+                    <!-- Portfolio Item -->
+                    <a href="#" class="portfolio__item">
+                        <img src="img\me_square.png" class="portfolio__img">
+                    </a>
+                    <!-- Portfolio Item -->
+                    <a href="#" class="portfolio__item">
+                            <img src="img\me_square.png" class="portfolio__img">
+                    </a>
+                    <!-- Portfolio Item -->
+                    <a href="#" class="portfolio__item">
+                            <img src="img\me_square.png" class="portfolio__img">
+                    </a>
+                    <!-- Portfolio Item -->
+                    <a href="#" class="portfolio__item">
+                            <img src="img\me_square.png" class="portfolio__img">
+                    </a>
+                </div>
+
+            </section>
+    </section>
+    <footer class ="footer" id="contact">
+        <a href="mailto:lavilrodriguez@outlook.com?subject= Hey Vilma! He revisado tu Portfolio y me interesa contactarte." class="footer__link" title="Email me! 📧">
+            <!-- <i class="fas fa-envelope-square"></i>  -->
+            lavilrodriguez@outlook.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a href="https://github.com/vilrodriguez/" class="social-list__link" title="GitHub 💻" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                    <a href="https://www.linkedin.com/in/vilrodriguez/" class="social-list__link" title="Perfil de Linked-in 👋" target="_blank">
+                        <i  class="fab fa-linkedin"></i>
+                    </a>
+            </li>
+            <li class="social-list__item">
+                    <a href="https://www.artstation.com/vilmango" class="social-list__link" title="Galería ArtStation 👩‍🎨" target="_blank">
+                        <i class="fab fa-artstation"></i>
+                    </a>
+            </li>
+        </ul>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
