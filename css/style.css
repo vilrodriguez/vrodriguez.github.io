@@ -61,11 +61,13 @@ strong { font-weight: var(--fw-bold) }
     outline: 3px solid var(--clr-accent);
     outline-offset: 3px;
 }
+
 /* Buttons */
 
 .btn {
     display: inline-block;
     padding: .5em 2.5em;
+    margin: 1em;
     background: var(--clr-accent);
     color: var(--clr-dark);
     text-decoration: none;
@@ -76,10 +78,13 @@ strong { font-weight: var(--fw-bold) }
     font-weight: var(--fw-bold);
     transition: transform 200ms ease-in-out;
 }
-
 .btn:hover {
     transform: scale(1.1);
 }
+/* section.btn-go-top .btn-go-top__link{
+    font-size: var(--fs-h2);
+    margin-top: 2em;
+} */
 /* Typography */
 
 h1,
@@ -307,6 +312,10 @@ h3 { font-size: var(--fs-h3) }
 .social-list__item i {
     font-size: 2em;
     margin: 0 .5em;
+}
+.social-list__item .btn-go-top__link i{
+    margin-top: 1em;
+    color: var(--clr-accent);
 }
 
 /* header */
