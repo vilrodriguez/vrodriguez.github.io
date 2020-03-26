@@ -164,7 +164,7 @@ h3 { font-size: var(--fs-h3) }
 
 .my-services {
     background-color: var(--clr-dark);
-    background-image: url(../img/screen-code.jpg);
+    background-image: url(../img/screen-code_light.png);
     background-size: cover;
     background-blend-mode: multiply;
     color: var(--clr-light);
@@ -256,14 +256,16 @@ h3 { font-size: var(--fs-h3) }
 .portfolio {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    /* grid-template-columns: 1fr 1fr 1fr; */
 }
 
 .portfolio__item {
     background: var(--clr-accent);
     overflow: hidden;
+    width: 100%;
+    margin: 0.5em;
 }
 .portfolio__img {
+    width: 100%;
     transition: 
         transform 750ms cubic-bezier(.2, 0, .5, 1),
         opacity 250ms linear;
